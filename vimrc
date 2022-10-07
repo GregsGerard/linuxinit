@@ -9,4 +9,5 @@ set autoindent
 set hlsearch
 set paste
 set ruler
+set backspace=indent,eol,start " vim on mac...
 au BufEnter,BufRead *.conf setf dosini
